@@ -1,0 +1,28 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import "fonts";
+
+body {
+  // Copy pasted from Minimalist: https://github.com/BDHU/bdhu.github.io/blob/d37069a8d913b7e4255c0fdd480d64b72e3714c5/_sass/jekyll-theme-minimalist.scss#L9
+  // Keeping here for now in case want to change fonts in the future.
+  font: 14px/1.5 -apple-system,BlinkMacSystemFont, "Segoe UI", "Open Sans", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+details > summary {
+  cursor: pointer; 
+  list-style: none;
+  color: var(--clr-h1-and-bold);
+}
+
+details > summary:hover {
+  cursor: pointer; 
+  list-style: none;
+  color: var(--clr-a-text-hvr);
+}
+
+p.no-margins {
+  margin: 0px;
+}
