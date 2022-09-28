@@ -1,0 +1,16 @@
+<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
+<!-- Setup Google Analytics -->
+{%- if site.google_analytics and jekyll.environment == 'production' -%}
+  {% include head-custom-google-analytics.html %}
+{%- endif -%}
+
+<!-- You can set your favicon here -->
+{% if site.favicon %}
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+{% endif %}
+
+{% seo %}
+
+<!-- end custom head snippets -->

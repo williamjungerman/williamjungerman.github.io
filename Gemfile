@@ -32,11 +32,13 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-# NEED THIS TO HAVE THE LOCAL SERVER WORK!!!!!!!!!!
+# Need this to have the local server work
 # https://github.com/github/pages-gem/issues/752
 gem "webrick", "~> 1.7"
 
-# NEED THIS TO GET THE THEMEEEEEEEEEEE!!!!
+# Need this to get the minimalist theme
 # https://github.com/BDHU/minimalist
 gem "jekyll-remote-theme"
+
+gem 'jekyll-seo-tag'
 

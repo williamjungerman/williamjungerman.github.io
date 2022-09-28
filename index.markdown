@@ -16,7 +16,7 @@ Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities
 
 ## Research
 
-### Working Papers
+### Working papers
 Coming soon.
 
 ### Work in progress
