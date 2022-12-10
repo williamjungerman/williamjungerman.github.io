@@ -10,7 +10,7 @@ title: "William Jungerman"
 ## About me
 Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. My fields of interest are Macroeconomics and Labor Economics.
 
-<!-- My CV is available [here](){:target="_blank"}. -->
+My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 
 ---
 
