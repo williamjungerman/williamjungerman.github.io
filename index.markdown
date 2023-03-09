@@ -20,7 +20,8 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 Coming soon.
 
 ### Work in progress
-Coming soon. 
+Learning from Firms and Coworkers \
+(with [Fil Babalievsky](https://fil-babalievsky.squarespace.com/){:target="_blank"} and [Jacob Adenbaum](https://jacobadenbaum.github.io/){:target="_blank"})
 
 ### Publications
 <!-- 
