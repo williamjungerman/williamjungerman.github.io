@@ -58,6 +58,7 @@ Learning from Firms and Coworkers \
 ## Teaching
 
 ### University of Minnesota, Twin Cities 
+- ECON 4431W International Trade, Writing Assistant: Fall 2023
 - ECON 4211 Principles of Econometrics, Instructor: Fall 2020, Spring 2021, Fall 2021, Spring 2022
 - ECON 4261 Introduction to Econometrics, Instructor: Summer 2020
 - ECON 4751 Financial Economics, Instructor: Summer 2021
