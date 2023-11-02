@@ -1,6 +1,16 @@
 - title: Dynamic Monopsony and Human Capital (JMP)
   link: /assets/papers/JMP_Jungerman.pdf
   abstract: A number of influential papers study monopsony power in static models. Among the papers that model dynamics with a finite number of firms, none models the process of human capital accumulation by workers. In this paper, I show that this has important implications for the measurement and welfare consequences of monopsony power. How large are properly measured markdowns? And what are the welfare gains of implementing competitive allocations once we have accounted for human capital accumulation? To answer these questions, I introduce a novel structural model of dynamic monopsony in which a large non-atomistic firm competes with a finite number of homogeneous firms for workers who learn on-the-job. The markdown has an additional dynamic term reflecting expected future changes in worker human capital and is no longer a sufficient statistic for the welfare losses from monopsony. I estimate the model using rich matched employee-employer administrative data from France and find that the welfare gains from forcing firms to offer workers their marginal product are large.
+# - title: Production Function Estimation with Missing Data (draft coming soon)
+#   coauthors:
+#       - name: Kyle Herkenhoff
+#         link: https://sites.google.com/site/kyleherkenhoff/home?authuser=0
+  # link: /assets/papers/JMP_Jungerman.pdf
+  # abstract: 
+- title: Average Match Quality over the Business Cycle
+  link: /assets/papers/Jungerman_AMQ.pdf
+  abstract: "This paper examines how the business cycle impacts the average quality of an employer-employee match. I study a model of the labor market with on-the-job search, aggregate uncertainty, and heterogeneous match qualities. I test two theories: the cleansing effect, whereby the low quality matches are destroyed during recessions, and the sullying effect, whereby firms post fewer vacancies during recessions and workers have fewer opportunities to move up the job ladder. I find that the sullying effect dominates and that average match quality is procyclical due to increased hiring out of unemployment during recessions. I extend the model to allow for an exogenous minimum wage and show that neglecting to account for the cyclicality of match qualities can lead to miscalculating the effects of the policy."
+
 # - title: Second pub
 #   coauthors:
 #     - name: c

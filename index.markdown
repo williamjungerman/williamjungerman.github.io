@@ -10,7 +10,7 @@ title: "William Jungerman"
 ## About me
 Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. My fields of interest are Macroeconomics and Labor Economics.
 
-I am on the job market during the 2023-2024 academic year. My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
+I am on the job market during the 2023-2024 academic year and will be available for interviews at the EEA and ASSA meetings. My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
 
 ---
 
