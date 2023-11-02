@@ -10,14 +10,27 @@ title: "William Jungerman"
 ## About me
 Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. My fields of interest are Macroeconomics and Labor Economics.
 
-My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
+I am on the job market during the 2023-2024 academic year. My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
 
 ---
 
 ## Research
 
 ### Working papers
-Coming soon.
+{% for wp in site.data.workingpapers %}
+  **[{{wp.title}}]({{wp.link}}){:target="_blank"}** 
+  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}){% endif %} \
+  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
+  {: class="no-margins"}
+  <details>
+      <summary>Abstract (click to expand)</summary>
+      {{ wp.abstract }}
+  </details>
+
+  <!-- This creates line break to space out items; need the no-margins class also since this gets automatically wrapped with a <p> which by default has extra margins -->
+  <br/>
+  {: class="no-margins"}
+{% endfor %}
 
 ### Work in progress
 Learning from Firms and Coworkers \
@@ -58,6 +71,7 @@ Learning from Firms and Coworkers \
 ## Teaching
 
 ### University of Minnesota, Twin Cities 
+- ECON 3951 Economics Capstone, Instructor: Spring 2024
 - ECON 4431W International Trade, Writing Assistant: Fall 2023
 - ECON 4211 Principles of Econometrics, Instructor: Fall 2020, Spring 2021, Fall 2021, Spring 2022
 - ECON 4261 Introduction to Econometrics, Instructor: Summer 2020
