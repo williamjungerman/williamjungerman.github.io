@@ -38,6 +38,9 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 Learning from Firms and Coworkers \
 (with [Fil Babalievsky](https://fil-babalievsky.squarespace.com/){:target="_blank"} and [Jacob Adenbaum](https://jacobadenbaum.github.io/){:target="_blank"})
 
+Monopsony in the Antebellum South \
+(with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"} and [James A. Schmitz, Jr.](https://sites.google.com/site/jamesschmitzjr/){:target="_blank"})
+
 ### Publications
 <!-- 
 **[Brexit, the City of London, and the prospects for portfolio investment](/assets/papers/EichengreenJungermanLiu2019.pdf){:target="_blank"}** \
