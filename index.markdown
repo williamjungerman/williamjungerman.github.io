@@ -8,7 +8,7 @@ title: "William Jungerman"
 ---
 
 ## About me
-Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. I will be joining the Economics Department at the University of North Carolina, Chapel Hill in July.
+Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. I will be joining the Economics Department at the University of North Carolina, Chapel Hill as Assistant Professor in July.
 
 My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
 
