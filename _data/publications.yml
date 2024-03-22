@@ -5,6 +5,27 @@
     - name: Barry Eichengreen
       link: https://eml.berkeley.edu/~eichengr/
     - name: Mingyang (Chris) Liu
+  journal_link: https://link.springer.com/article/10.1007/s10663-019-09447-4#citeas
+  bibtex: |
+    @article{
+      cite-key,
+      abstract = {This paper examines the international financial consequences of Brexit. It first provides a survey of the still limited literature on EU membership and international capital flows. It then provides new estimates of the impact of Brexit on cross-border investment utilizing data from the IMF's Consolidated Portfolio Investment Survey. It lastly provides a comparative analysis of these same issues using data on crossborder capital flows from the BIS. The conclusion is that the impact on cross-border capital flows to and from the UK is likely to be substantial.},
+      author = {Eichengreen, Barry and Jungerman, William and Liu, Mingyang},
+      date = {2020/02/01},
+      date-added = {2024-03-20 20:25:05 -0500},
+      date-modified = {2024-03-20 20:25:05 -0500},
+      doi = {10.1007/s10663-019-09447-4},
+      id = {Eichengreen2020},
+      isbn = {1573-6911},
+      journal = {Empirica},
+      number = {1},
+      pages = {1--16},
+      title = {Brexit, the City of London, and the prospects for portfolio investment},
+      url = {https://doi.org/10.1007/s10663-019-09447-4},
+      volume = {47},
+      year = {2020},
+      bdsk-url-1 = {https://doi.org/10.1007/s10663-019-09447-4}
+    }
   abstract: This paper examines the international financial consequences of Brexit. It first provides a survey of the still limited literature on EU membership and international capital flows. It then provides new estimates of the impact of Brexit on cross-border investment utilizing data from the IMF’s Consolidated Portfolio Investment Survey. It lastly provides a comparative analysis of these same issues using data on cross- border capital flows from the BIS. The conclusion is that the impact on cross-border capital flows to and from the UK is likely to be substantial.
 # - title: Second pub
 #   coauthors:

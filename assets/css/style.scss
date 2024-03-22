@@ -26,3 +26,19 @@ details > summary:hover {
 p.no-margins {
   margin: 0px;
 }
+
+.tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition:visibility 0.2s linear,opacity 0.2s linear;
+  width: fit-content;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 0 3px;
+  border-radius: 4px;
+  margin-left: 5px;
+
+  position: absolute;
+  z-index: 1;
+}

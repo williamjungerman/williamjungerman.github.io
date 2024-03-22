@@ -56,7 +56,14 @@ Monopsony in the Antebellum South \
 {% for pub in site.data.publications %}
   **[{{pub.title}}]({{pub.link}}){:target="_blank"}** \
   (with {% for author in pub.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}) \
-  *{{ pub.publication }}*
+  *{{ pub.publication }}* \
+  {% if pub.journal_link %}[Journal link]({{ pub.journal_link }}){:target="_blank"}{% endif %}
+  {% if pub.bibtex %}\- <a href="#" onclick="copyToClickboard('#bibtex-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %}
+  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
+  {: class="no-margins"}
+  <div id="bibtex-{{ forloop.index }}" style="display:none;">
+    {{pub.bibtex}}
+  </div>
   <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
   {: class="no-margins"}
   <details>
