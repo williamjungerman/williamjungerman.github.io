@@ -5,7 +5,7 @@
     - name: Barry Eichengreen
       link: https://eml.berkeley.edu/~eichengr/
     - name: Mingyang (Chris) Liu
-  journal_link: https://link.springer.com/article/10.1007/s10663-019-09447-4#citeas
+  journal_link: https://link.springer.com/article/10.1007/s10663-019-09447-4
   bibtex: |
     @article{
       cite-key,
