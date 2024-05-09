@@ -8,7 +8,7 @@ title: "William Jungerman"
 ---
 
 ## About me
-Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. I will be joining the Economics Department at the University of North Carolina, Chapel Hill as Assistant Professor in July.
+Hi! I'm a PhD candidate in economics at the University of Minnesota, Twin Cities. I will be joining the Economics Department at the University of North Carolina, Chapel Hill as an Assistant Professor in July.
 
 My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
 
@@ -18,21 +18,31 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 
 ### Working papers
 {% for wp in site.data.workingpapers %}
-  **[{{wp.title}}]({{wp.link}}){:target="_blank"}** 
-  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}){% endif %} \
+  **[{{wp.title}}]({{wp.link}}){:target="_blank"}**  
+  {: class="no-margins"}
+  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}) {% endif %} 
+  {: class="no-margins"}
+  {% if wp.bibtex %} <a href="#" onclick="copyToClickboard('#bibtex-wp-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-wp-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %} 
+  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
+  {: class="no-margins"}
+  <div id="bibtex-wp-{{ forloop.index }}" style="display:none;">
+    {{wp.bibtex}}
+  </div>
   <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
   {: class="no-margins"}
   <details>
       <summary>Abstract (click to expand)</summary>
       {{ wp.abstract }}
   </details>
-
   <!-- This creates line break to space out items; need the no-margins class also since this gets automatically wrapped with a <p> which by default has extra margins -->
   <br/>
   {: class="no-margins"}
 {% endfor %}
 
 ### Work in progress
+Production Function Estimation with Missing Data \
+(with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"})
+
 Learning from Firms and Coworkers \
 (with [Fil Babalievsky](https://fil-babalievsky.squarespace.com/){:target="_blank"} and [Jacob Adenbaum](https://jacobadenbaum.github.io/){:target="_blank"})
 
