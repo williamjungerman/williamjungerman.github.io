@@ -105,10 +105,11 @@ Monopsony in the Antebellum South \
 ## Contact
 
 **E-mail** \
-junge076 at umn dot edu \
+wjunger at unc dot edu \
     william dot jungerman at gmail dot com
 
 **Mailing Address** \
-4-101 Hanson Hall \
-1925 Fourth Street South \
-Minneapolis, MN 55455
+University of North Carolina \ 
+Department of Economics \
+305B Gardner Hall \
+Chapel Hill, NC 27599
