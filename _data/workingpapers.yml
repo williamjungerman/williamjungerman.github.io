@@ -2,10 +2,10 @@
   link: /assets/papers/JMP_Jungerman.pdf
   bibtex: |
     @unpublished{
-      jungerman2023,
+      jungerman2024,
       author={Jungerman, William},
       title={Dynamic Monopsony and Human Capital},
-      year={2023}, 
+      year={2024}, 
       note={Working Paper}
     }
   abstract: A number of influential papers study monopsony power in static models. Among the papers that model dynamics with a finite number of firms, none model the process of human capital accumulation by workers. In this paper, I show that this has important implications for the measurement and welfare consequences of monopsony power. How large are properly measured markdowns? And what are the welfare gains of implementing competitive allocations once we have accounted for human capital accumulation? To answer these questions, I introduce a novel model of dynamic monopsony in which a large non-atomistic firm competes with a finite number of homogeneous firms for workers who learn on-the-job. The markdown has an additional dynamic term reflecting expected future changes in worker human capital. I estimate the model using rich matched employee-employer administrative data from France and find that the welfare gains from forcing firms to offer workers their marginal product are large. Moreover, the welfare losses are underestimated by 81% when ignoring human capital accumulation. 
