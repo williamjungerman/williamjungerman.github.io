@@ -105,8 +105,8 @@ Monopsony in the Antebellum South \
 ## Contact
 
 **E-mail** \
-wjunger at unc dot edu \
-    william dot jungerman at gmail dot com
+    william dot jungerman at gmail dot com \
+    wjunger at unc dot edu 
 
 **Mailing Address** \
 University of North Carolina \ 
