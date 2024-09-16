@@ -8,7 +8,7 @@ title: "William Jungerman"
 ---
 
 ## About me
-Hi! I'm an Assistant Professor of Economics at the University of North Carolina, Chapel Hill.
+Hi! I'm an Assistant Professor of Economics at the University of North Carolina, Chapel Hill. I received my PhD from the University of Minnesota in 2024.
 
 My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}. 
 
@@ -90,15 +90,19 @@ Monopsony in the Antebellum South \
 ---
 ## Teaching
 
+### University of North Carolina, Chapel Hill 
+- ECON 920 (Dissertation Workshop in Macroeconomics): Fall 2024, Spring 2025
+- ECON 520 (Advanced Macroeconomics Theory): Spring 2025 (x2)
+
 ### University of Minnesota, Twin Cities 
-- ECON 3951 Economics Capstone, Instructor: Spring 2024
-- ECON 4431W International Trade, Writing Assistant: Fall 2023
-- ECON 4211 Principles of Econometrics, Instructor: Fall 2020, Spring 2021, Fall 2021, Spring 2022
-- ECON 4261 Introduction to Econometrics, Instructor: Summer 2020
-- ECON 4751 Financial Economics, Instructor: Summer 2021
-- ECON 3101 Intermediate Microeconomics, Teaching Assistant: Fall 2019, Spring 2020
-- ECON 1102 Intro to Macroeconomics, Teaching Assistant: Spring 2019
-- ECON 4968 Uncertainty and Information, Teaching Assistant: Fall 2018
+- ECON 3951 (Economics Capstone), Instructor: Spring 2024
+- ECON 4431W (International Trade), Writing Assistant: Fall 2023
+- ECON 4211 (Principles of Econometrics), Instructor: Fall 2020, Spring 2021, Fall 2021, Spring 2022
+- ECON 4261 (Introduction to Econometrics), Instructor: Summer 2020
+- ECON 4751 (Financial Economics), Instructor: Summer 2021
+- ECON 3101 (Intermediate Microeconomics), Teaching Assistant: Fall 2019, Spring 2020
+- ECON 1102 (Intro to Macroeconomics), Teaching Assistant: Spring 2019
+- ECON 4968 (Uncertainty and Information), Teaching Assistant: Fall 2018
 
 ---
 
