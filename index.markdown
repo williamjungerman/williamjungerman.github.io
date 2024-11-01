@@ -43,9 +43,6 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 Production Function Estimation with Missing Data \
 (with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"})
 
-Learning from Firms and Coworkers \
-(with [Fil Babalievsky](https://fil-babalievsky.squarespace.com/){:target="_blank"} and [Jacob Adenbaum](https://jacobadenbaum.github.io/){:target="_blank"})
-
 Monopsony in the Antebellum South \
 (with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"} and [James A. Schmitz, Jr.](https://sites.google.com/site/jamesschmitzjr/){:target="_blank"})
 
