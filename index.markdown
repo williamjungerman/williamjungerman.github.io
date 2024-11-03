@@ -20,7 +20,7 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 {% for wp in site.data.workingpapers %}
   **[{{wp.title}}]({{wp.link}}){:target="_blank"}**  
   {: class="no-margins"}
-  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}) {% endif %} 
+  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %}){% endif %}
   {: class="no-margins"}
   {% if wp.bibtex %} <a href="#" onclick="copyToClickboard('#bibtex-wp-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-wp-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %} 
   <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
@@ -62,7 +62,7 @@ Monopsony in the Antebellum South \
 
 {% for pub in site.data.publications %}
   **[{{pub.title}}]({{pub.link}}){:target="_blank"}** \
-  (with {% for author in pub.coauthors %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}) \
+  {% if pub.coauthors %}(with {% for author in pub.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %}){% endif %} \
   *{{ pub.publication }}* \
   {% if pub.journal_link %}[Journal link]({{ pub.journal_link }}){:target="_blank"}{% endif %}
   {% if pub.bibtex %}\- <a href="#" onclick="copyToClickboard('#bibtex-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %}
@@ -110,7 +110,7 @@ Monopsony in the Antebellum South \
     wjunger at unc dot edu 
 
 **Mailing Address** \
-University of North Carolina \ 
+University of North Carolina \
 Department of Economics \
 305B Gardner Hall \
 Chapel Hill, NC 27599
