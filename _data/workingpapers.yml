@@ -14,6 +14,22 @@
       note={Working Paper}
     }
   abstract: What are the sources of worker learning within the firm? How much of a worker's human capital growth comes from firm specific factors, such as the learning environment, as opposed to their own ability, and the composition of their coworkers?  In this paper, we introduce a novel labor search model with multi-worker firms, learning from coworkers, and heterogeneity in learning-by-doing rates that can vary at the worker and firm level. Despite its complexity, we show that it is possible to solve such a model by leveraging recent advances from the machine learning literature. We use French administrative data to discipline the parameters of the model, specifically by targeting how wage growth varies across workers, firms, and the distribution of coworker wages.  With the calibrated model in hand we perform a series of structural and statistical decompositions to test how much of the variance of human capital is driven by learning from coworkers and by heterogeneous learning-by-doing, and find that learning from coworkers is the dominant source of learning in the economy. Switching off learning from coworkers lowers human capital and wages by more than 25%, and differences in the composition of coworkers accounts for more than 50% of the variance of human capital growth rates. Finally, we use the model to calculate dynamic markdowns that price in the benefits of learning on the job and find that markdowns are less than 5% on average for workers with more than 1 year of experience at their current firm.
+- title: Deep Reinforcement Learning for Economics
+  coauthors:
+    - name: Jacob Adenbaum
+      link: https://jacobadenbaum.github.io/
+    - name: Fil Babalievsky
+      link: http://fil-babalievsky.squarespace.com/
+  link: https://jacobadenbaum.github.io/DRL/
+  bibtex: |
+    @unpublished{
+      DRL,
+      author={Jacob Adenbaum and Fil Babalievsky and William Jungerman},
+      title={Deep Reinforcement Learning for Economics},
+      year={2024}, 
+      note={Working Paper}
+    }
+  abstract: This paper provides a self-contained guide to deep reinforcement learning methods for economists. These tools allow agents to find the policy function that maximizes their expected discounted stream of rewards under very few assumptions about the structure of the model, and are potentially applicable to a wide class of economic models. We begin by translating the language of reinforcement learning to the language of economics. Next, we introduce neural networks, a class of function approximators that have proven useful for reinforcement learning. We use a standard Bewley (1977)-style consumption-savings problem as our test case since we can easily check for correctness. We conclude by offering a practical guide with implementation details and a discussion of what kinds of problems are more amenable to reinforcement learning than conventional techniques.
 - title: Dynamic Monopsony and Human Capital
   link: /assets/papers/JMP_Jungerman.pdf
   bibtex: |
