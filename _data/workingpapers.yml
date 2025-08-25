@@ -1,3 +1,19 @@
+- title: "Product Market Power as a Labor Distortion: the Case of Home Production Substitutes"
+  coauthors:
+    - name: Stan Rabinovich
+      link: https://sites.google.com/site/stanrabinovicheconomics/
+    - name: Bailey Sanders
+      link: https://sites.google.com/view/baileyksanders/
+  link: /assets/papers/home_substitutes.pdf
+  bibtex: |
+    @unpublished{
+      Home_Subs,
+      author={William Jungerman and Stanislav Rabinovich and Bailey Sanders},
+      title={Product Market Power as a Labor Distortion: the Case of Home Production Substitutes},
+      year={2025}, 
+      note={Working Paper}
+    }
+  abstract: Imperfect competition in markets for home inputs constrains households’ ability to outsource or automate home production and, when women bear the burden of home production, restricts female labor supply. Perhaps surprisingly, this channel has not been incorporated or quantified in classic models in family macroeconomics. We fill this gap by introducing monopolistic competition in the market for home production substitutes into a simple model of household time allocation. Households consume market goods and home-produced goods. The latter are produced using a combination of the wife’s time and home inputs, where the market for home inputs is monopolistically competitive. We show that markups on home inputs reduce female hours worked relative to the efficient benchmark. We also show that market power for home inputs can dampen or amplify the response of female hours worked to other economic forces, such as technological change lowering the physical cost of these inputs and the narrowing of the gender wage gap.
 - title: Learning on the Job
   coauthors:
     - name: Jacob Adenbaum
