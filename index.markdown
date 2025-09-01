@@ -5,6 +5,7 @@
 # Minimalist default layout: https://github.com/BDHU/minimalist/blob/main/_layouts/default.html
 layout: default
 title: "William Jungerman"
+canonical_url: https://williamjungerman.github.io/
 ---
 
 ## About me
@@ -17,71 +18,51 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
 ## Research
 
 ### Working papers
+<ol>
 {% for wp in site.data.workingpapers %}
-  **[{{wp.title}}]({{wp.link}}){:target="_blank"}**  
-  {: class="no-margins"}
-  {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %}){% endif %}
-  {: class="no-margins"}
-  {% if wp.bibtex %} <a href="#" onclick="copyToClickboard('#bibtex-wp-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-wp-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %} 
-  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
-  {: class="no-margins"}
-  <div id="bibtex-wp-{{ forloop.index }}" style="display:none;">
-    {{wp.bibtex}}
-  </div>
-  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
-  {: class="no-margins"}
-  <details>
+  <li>
+    <strong><a href="{{wp.link}}" target="_blank">{{wp.title}}</a></strong><br/>
+    {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}<a href="{{ author.link }}" target="_blank">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %})<br/>{% endif %}
+    {% if wp.bibtex %}<a href="#" onclick="copyToClickboard('#bibtex-wp-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-wp-{{ forloop.index }}-tooltip" class="tooltip">copied</span><br/>{% endif %}
+    <div id="bibtex-wp-{{ forloop.index }}" style="display:none;">
+      {{wp.bibtex}}
+    </div>
+    <details>
       <summary>Abstract (click to expand)</summary>
       {{ wp.abstract }}
-  </details>
-  <!-- This creates line break to space out items; need the no-margins class also since this gets automatically wrapped with a <p> which by default has extra margins -->
-  <br/>
-  {: class="no-margins"}
+    </details>
+    <br/>
+  </li>
 {% endfor %}
+</ol>
 
-### Work in progress
+<!-- ### Work in progress
 Production Function Estimation with Missing Data \
 (with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"})
 
 Monopsony in the Antebellum South \
-(with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"} and [James A. Schmitz, Jr.](https://sites.google.com/site/jamesschmitzjr/){:target="_blank"})
+(with [Kyle Herkenhoff](https://sites.google.com/site/kyleherkenhoff/home?authuser=0){:target="_blank"} and [James A. Schmitz, Jr.](https://sites.google.com/site/jamesschmitzjr/){:target="_blank"}) -->
 
 ### Publications
-<!-- 
-**[Brexit, the City of London, and the prospects for portfolio investment](/assets/papers/EichengreenJungermanLiu2019.pdf){:target="_blank"}** \
-(with [Barry Eichengreen](https://eml.berkeley.edu/~eichengr/){:target="_blank"} and Mingyang (Chris) Liu)
-{: class="no-margins"}
-<details>
-    <summary>Abstract (click to expand)</summary>
-    This paper examines the international financial consequences of Brexit. It first pro- vides a survey of the still limited literature on EU membership and international capital flows. It then provides new estimates of the impact of Brexit on cross-border investment utilizing data from the IMF’s Consolidated Portfolio Investment Survey. It lastly provides a comparative analysis of these same issues using data on cross- border capital flows from the BIS. The conclusion is that the impact on cross-border capital flows to and from the UK is likely to be substantial.
-</details>
-
-<br/>
-{: class="no-margins"}
--->
-
+<ol>
 {% for pub in site.data.publications %}
-  **[{{pub.title}}]({{pub.link}}){:target="_blank"}** \
-  {% if pub.coauthors %}(with {% for author in pub.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}[{{ author.name }}]({{ author.link }}){:target="_blank"}{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %}){% endif %} \
-  *{{ pub.publication }}* \
-  {% if pub.journal_link %}[Journal link]({{ pub.journal_link }}){:target="_blank"}{% endif %}
-  {% if pub.bibtex %}\- <a href="#" onclick="copyToClickboard('#bibtex-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-{{ forloop.index }}-tooltip" class="tooltip">copied</span>{% endif %}
-  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
-  {: class="no-margins"}
-  <div id="bibtex-{{ forloop.index }}" style="display:none;">
-    {{pub.bibtex}}
-  </div>
-  <!-- This applies apply the no-margins class to prev paragraph to remove margins -->
-  {: class="no-margins"}
-  <details>
+  <li>
+    <strong><a href="{{pub.link}}" target="_blank">{{pub.title}}</a></strong><br/>
+    {% if pub.coauthors %}(with {% for author in pub.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}<a href="{{ author.link }}" target="_blank">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %})<br/>{% endif %}
+    <em>{{ pub.publication }}</em><br/>
+    {% if pub.journal_link %}<a href="{{ pub.journal_link }}" target="_blank">Journal link</a> {% endif %}
+    {% if pub.bibtex %}<a href="#" onclick="copyToClickboard('#bibtex-pub-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-pub-{{ forloop.index }}-tooltip" class="tooltip">copied</span><br/>{% endif %}
+    <div id="bibtex-pub-{{ forloop.index }}" style="display:none;">
+      {{pub.bibtex}}
+    </div>
+    <details>
       <summary>Abstract (click to expand)</summary>
       {{ pub.abstract }}
-  </details>
-
-  <!-- This creates line break to space out items; need the no-margins class also since this gets automatically wrapped with a <p> which by default has extra margins -->
-  <br/>
-  {: class="no-margins"}
+    </details>
+    <br/>
+  </li>
 {% endfor %}
+</ol>
 
 
 ---
