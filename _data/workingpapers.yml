@@ -1,3 +1,19 @@
+- title: There’s Nothing in the Air
+  coauthors:
+    - name: Jacob Adenbaum
+      link: https://jacobadenbaum.github.io/
+    - name: Fil Babalievsky
+      link: http://fil-babalievsky.squarespace.com/
+  link: /assets/papers/urban_data.pdf
+  bibtex: |
+    @unpublished{
+      There_s_Nothing_in_the_Air,
+      author={Jacob Adenbaum and Fil Babalievsky and William Jungerman},
+      title={There’s Nothing in the Air},
+      year={2025}, 
+      note={Working Paper}
+    }
+  abstract: Why do wages grow faster in bigger cities? We use French administrative data to decompose the urban wage growth premium and find that the answer has surprisingly little to do with cities themselves. While we document substantially faster wage growth in larger cities, 80% of the premium disappears after controlling for the composition of firms and coworkers. We also document significantly higher job-to-job transition rates in larger cities, suggesting workers climb the job ladder faster. Most strikingly, when we focus on workers who remain in the same job -- eliminating the job ladder mechanism -- the urban wage growth premium falls by 94.1% after accounting for firms and coworkers. The residual effect is statistically indistinguishable from zero. These results challenge the view that cities generate human capital spillovers ``in the air,'' suggesting instead that urban wage dynamics reflect the sorting of firms and workers and the pace of job mobility.
 - title: "Product Market Power as a Labor Distortion: the Case of Home Production Substitutes"
   coauthors:
     - name: Stan Rabinovich
