@@ -69,9 +69,9 @@ Monopsony in the Antebellum South \
 ## Teaching
 
 ### University of North Carolina, Chapel Hill 
-- ECON 890 (Topics in Macro Labor): Fall 2025
+- ECON 890 (Topics in Macro Labor): Fall 2025, Fall 2026
 - ECON 920 (Dissertation Workshop in Macroeconomics): Fall 2024, Spring 2025
-- ECON 520 (Advanced Macroeconomics Theory): Spring 2025 (x2)
+- ECON 520 (Advanced Macroeconomics Theory): Spring 2025 (x2), Fall 2026 (x2)
 
 ### University of Minnesota, Twin Cities 
 - ECON 3951 (Economics Capstone), Instructor: Spring 2024
