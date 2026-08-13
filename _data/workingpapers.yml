@@ -1,3 +1,19 @@
+- title: "Product Market Power as a Labor Distortion: the Case of Home Production Substitutes"
+  coauthors:
+    - name: Stan Rabinovich
+      link: https://sites.google.com/site/stanrabinovicheconomics/
+    - name: Bailey Sanders
+      link: https://sites.google.com/view/baileyksanders/
+  link: /assets/papers/home_substitutes.pdf
+  bibtex: |
+    @unpublished{
+      Home_Subs,
+      author={William Jungerman and Stanislav Rabinovich and Bailey Sanders},
+      title={Product Market Power as a Labor Distortion: the Case of Home Production Substitutes},
+      year={2025}, 
+      note={Working Paper}
+    }
+  abstract: We introduce monopolistic competition in markets for home production substitutes into a model of household time allocation and study the implications for female labor supply. Households in our model consume market goods and home-produced goods; the latter are produced using a combination of the wife’s time and home inputs, where the market for home inputs is monopolistically competitive. The resulting markups on home inputs are endogenous and depend on both the elasticity of substitution between products and the home production technology. Markups directly raise the price of outsourcing housework and thereby reduce female labor supply; we show theoretically that markups can also amplify or dampen the effect of other economic forces, such as the cost of home inputs and the gender wage gap. We estimate our model using a combination of time allocation, expenditure, and markup data. Our estimates imply that endogenous markups amplify the labor supply effects of technological progress in housework substitutes by approximately 12%. The framework identifies a distinct channel through which product market power shapes female labor supply, operating through household time allocation.
 - title: There’s Nothing in the Air
   coauthors:
     - name: Jacob Adenbaum
@@ -14,22 +30,6 @@
       note={Working Paper}
     }
   abstract: Why do wages grow faster in bigger cities? We use French administrative data to decompose the urban wage growth premium and find that the answer has surprisingly little to do with cities themselves. While we document substantially faster wage growth in larger cities, 80% of the premium disappears after controlling for the composition of firms and coworkers. We also document significantly higher job-to-job transition rates in larger cities, suggesting workers climb the job ladder faster. Most strikingly, when we focus on workers who remain in the same job -- eliminating the job ladder mechanism -- the urban wage growth premium falls by 94.1% after accounting for firms and coworkers. The residual effect is statistically indistinguishable from zero. These results challenge the view that cities generate human capital spillovers ``in the air,'' suggesting instead that urban wage dynamics reflect the sorting of firms and workers and the pace of job mobility.
-- title: "Product Market Power as a Labor Distortion: the Case of Home Production Substitutes"
-  coauthors:
-    - name: Stan Rabinovich
-      link: https://sites.google.com/site/stanrabinovicheconomics/
-    - name: Bailey Sanders
-      link: https://sites.google.com/view/baileyksanders/
-  link: /assets/papers/home_substitutes.pdf
-  bibtex: |
-    @unpublished{
-      Home_Subs,
-      author={William Jungerman and Stanislav Rabinovich and Bailey Sanders},
-      title={Product Market Power as a Labor Distortion: the Case of Home Production Substitutes},
-      year={2025}, 
-      note={Working Paper}
-    }
-  abstract: Imperfect competition in markets for home inputs constrains households’ ability to outsource or automate home production and, when women bear the burden of home production, restricts female labor supply. Perhaps surprisingly, this channel has not been incorporated or quantified in classic models in family macroeconomics. We fill this gap by introducing monopolistic competition in the market for home production substitutes into a simple model of household time allocation. Households consume market goods and home-produced goods. The latter are produced using a combination of the wife’s time and home inputs, where the market for home inputs is monopolistically competitive. We show that markups on home inputs reduce female hours worked relative to the efficient benchmark. We also show that market power for home inputs can dampen or amplify the response of female hours worked to other economic forces, such as technological change lowering the physical cost of these inputs and the narrowing of the gender wage gap.
 - title: Learning on the Job
   coauthors:
     - name: Jacob Adenbaum
