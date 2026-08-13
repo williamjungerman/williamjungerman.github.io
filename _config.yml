@@ -34,7 +34,10 @@ google_analytics: G-2V6JDDPHCE
 google_site_verification: KPxAS1UJmKx_8lgX4sFOD_k775zIPkjv0L0qBfwz5Gk
 
 # Build settings
-remote_theme: BDHU/minimalist
+# Pinned to the last commit before the theme migrated to Sass `@use` syntax
+# (2026-05-20), which the GitHub Pages classic builder (Jekyll 3.10 / Ruby
+# Sass) cannot compile — builds fail with "Undefined mixin 'colors'".
+remote_theme: BDHU/minimalist@f19d6a6
 color-scheme: auto
 blank_title: true
 
