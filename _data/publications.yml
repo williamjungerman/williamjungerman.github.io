@@ -8,7 +8,7 @@
   journal_link: https://link.springer.com/article/10.1007/s10663-019-09447-4
   bibtex: |
     @article{
-      cite-key,
+      Eichengreen2020,
       abstract = {This paper examines the international financial consequences of Brexit. It first provides a survey of the still limited literature on EU membership and international capital flows. It then provides new estimates of the impact of Brexit on cross-border investment utilizing data from the IMF's Consolidated Portfolio Investment Survey. It lastly provides a comparative analysis of these same issues using data on crossborder capital flows from the BIS. The conclusion is that the impact on cross-border capital flows to and from the UK is likely to be substantial.},
       author = {Eichengreen, Barry and Jungerman, William and Liu, Mingyang},
       date = {2020/02/01},

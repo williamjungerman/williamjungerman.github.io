@@ -5,6 +5,7 @@
     - name: Bailey Sanders
       link: https://sites.google.com/view/baileyksanders/
   link: /assets/papers/home_substitutes.pdf
+  status: "New draft! First draft: August 2025."
   bibtex: |
     @unpublished{
       Home_Subs,
@@ -21,6 +22,7 @@
     - name: Fil Babalievsky
       link: http://fil-babalievsky.squarespace.com/
   link: /assets/papers/urban_data.pdf
+  status: "New draft coming soon!"
   bibtex: |
     @unpublished{
       There_s_Nothing_in_the_Air,
@@ -37,6 +39,7 @@
     - name: Fil Babalievsky
       link: http://fil-babalievsky.squarespace.com/
   link: https://jacobadenbaum.github.io/Learning_on_the_Job/
+  status: "New draft coming soon!"
   bibtex: |
     @unpublished{
       Learning_on_the_Job,
@@ -53,6 +56,7 @@
     - name: Fil Babalievsky
       link: http://fil-babalievsky.squarespace.com/
   link: https://jacobadenbaum.github.io/DRL/
+  status: "New draft coming soon!"
   bibtex: |
     @unpublished{
       DRL,
@@ -64,6 +68,7 @@
   abstract: This paper provides a self-contained guide to deep reinforcement learning methods for economists. These tools allow agents to find the policy function that maximizes their expected discounted stream of rewards under very few assumptions about the structure of the model, and are potentially applicable to a wide class of economic models. We begin by translating the language of reinforcement learning to the language of economics. Next, we introduce neural networks, a class of function approximators that have proven useful for reinforcement learning. We use a standard Bewley (1977)-style consumption-savings problem as our test case since we can easily check for correctness. We conclude by offering a practical guide with implementation details and a discussion of what kinds of problems are more amenable to reinforcement learning than conventional techniques.
 - title: Dynamic Monopsony and Human Capital
   link: /assets/papers/JMP_Jungerman.pdf
+  status: "New draft coming soon!"
   bibtex: |
     @unpublished{
       jungerman2024,
@@ -81,6 +86,7 @@
 #   abstract: This paper develops a method to estimate production functions when some inputs are unobserved. Due to data limitations in the U.S., there are no firm-level total factor productivity estimates for privately owned firms outside of the Manufacturing sector. We circumvent this issue by relying on the richness of matched employer-employee data instead. We extend the standard methodology by splitting the labor input into a predetermined stock of high skill workers and a flexible choice of low skill workers. This additional structure allows us to not only identify the model parameters, but also recover the unobserved productivity and capital stock of the firm. We provide a series of Monte Carlo experiments to validate our estimation algorithm, and we show that it is robust to alternate parameterizations of the production function and relaxations of our baseline assumptions.
 - title: Average Match Quality over the Business Cycle
   link: /assets/papers/Jungerman_AMQ.pdf
+  status: "Resting."
   bibtex: |
     @unpublished{
       jungerman2022,

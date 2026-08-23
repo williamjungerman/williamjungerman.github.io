@@ -5,6 +5,7 @@
 # Minimalist default layout: https://github.com/BDHU/minimalist/blob/main/_layouts/default.html
 layout: default
 title: "William Jungerman"
+description: "William Jungerman is an Assistant Professor of Economics at the University of North Carolina, Chapel Hill. His research fields are macroeconomics, labor economics, and urban economics."
 canonical_url: https://williamjungerman.github.io/
 ---
 
@@ -23,6 +24,7 @@ My CV is available [here](/assets/papers/cv.pdf){:target="_blank"}.
   <li>
     <strong><a href="{{wp.link}}" target="_blank">{{wp.title}}</a></strong><br/>
     {% if wp.coauthors %}(with {% for author in wp.coauthors %} {% assign second_to_last = forloop.length | minus: 1 %} {% if author.link %}<a href="{{ author.link }}" target="_blank">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% if forloop.index < second_to_last %}, {% endif %}{% if forloop.index == second_to_last %}{% if forloop.length > 2 %},{% endif %} and {% endif %}{% endfor %})<br/>{% endif %}
+    {% if wp.status %}<em>{{ wp.status }}</em><br/>{% endif %}
     {% if wp.bibtex %}<a href="#" onclick="copyToClickboard('#bibtex-wp-{{ forloop.index }}'); event.preventDefault();">Copy BibTex</a><span id="bibtex-wp-{{ forloop.index }}-tooltip" class="tooltip">copied</span><br/>{% endif %}
     <div id="bibtex-wp-{{ forloop.index }}" style="display:none;">
       {{wp.bibtex}}
