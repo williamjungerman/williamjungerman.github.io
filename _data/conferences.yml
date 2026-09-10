@@ -1,0 +1,10 @@
+- name: 1st Annual Deep Learning and Macro (Chapel Hill)
+  program: /assets/conferences/dlmacro2026_program.pdf
+  pics:
+    - /assets/img/dlmacro2026_pic1.jpeg
+    - /assets/img/dlmacro2026_pic2.jpeg
+  threads:
+    - name: Day 1
+      link: https://x.com/MarlonAzinovic/status/2096787805116473792
+    - name: Day 2
+      link: https://x.com/MarlonAzinovic/status/2097001567912100301

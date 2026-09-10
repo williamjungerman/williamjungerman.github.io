@@ -68,6 +68,18 @@ Monopsony in the Antebellum South \
 
 
 ---
+
+## Conferences Organized
+
+<ul>
+{% for conf in site.data.conferences %}
+  <li>
+    <strong>{{ conf.name }}</strong>: <a href="{{ conf.program }}" target="_blank">Program</a>{% for pic in conf.pics %}, <a href="{{ pic }}" target="_blank">Pic {{ forloop.index }}</a>{% endfor %}{% if conf.threads %}, Twitter Thread ({% for thread in conf.threads %}<a href="{{ thread.link }}" target="_blank">{{ thread.name }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}){% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+---
 ## Teaching
 
 ### University of North Carolina, Chapel Hill 
