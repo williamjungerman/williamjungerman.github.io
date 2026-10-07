@@ -1,3 +1,15 @@
+- title: Dynamic Monopsony and Human Capital
+  link: /assets/papers/JMP_Jungerman.pdf
+  status: "New draft! First draft: November 2023."
+  bibtex: |
+    @unpublished{
+      jungerman2026,
+      author={Jungerman, William},
+      title={Dynamic Monopsony and Human Capital},
+      year={2026}, 
+      note={Working Paper}
+    }
+  abstract: How does dynamic labor supply change the measurement and welfare costs of monopsony? I develop a dynamic model in which a large employer competes with smaller firms for workers who accumulate human capital. The large firm internalizes how its wages shape human capital and employment across the market. Hence, the labor supply elasticity is no longer a sufficient statistic for how far wages fall below their efficient level. I characterize the efficient allocation and show that wages equal to static marginal products implement it. To quantify the losses, I solve the model with deep learning and estimate it on French matched employer–employee data. Across two representative markets, monopsony lowers welfare by 2.6% on average. Inferring productivity from a static wage equation overstates the dominant employer’s productivity and makes wages appear further below their efficient level, yet understates the welfare cost of monopsony by 22% on average.
 - title: There’s Nothing in the Air
   coauthors:
     - name: Jacob Adenbaum
@@ -66,24 +78,6 @@
       note={Working Paper}
     }
   abstract: This paper provides a self-contained guide to deep reinforcement learning methods for economists. These tools allow agents to find the policy function that maximizes their expected discounted stream of rewards under very few assumptions about the structure of the model, and are potentially applicable to a wide class of economic models. We begin by translating the language of reinforcement learning to the language of economics. Next, we introduce neural networks, a class of function approximators that have proven useful for reinforcement learning. We use a standard Bewley (1977)-style consumption-savings problem as our test case since we can easily check for correctness. We conclude by offering a practical guide with implementation details and a discussion of what kinds of problems are more amenable to reinforcement learning than conventional techniques.
-- title: Dynamic Monopsony and Human Capital
-  link: /assets/papers/JMP_Jungerman.pdf
-  status: "New draft coming soon!"
-  bibtex: |
-    @unpublished{
-      jungerman2024,
-      author={Jungerman, William},
-      title={Dynamic Monopsony and Human Capital},
-      year={2024}, 
-      note={Working Paper}
-    }
-  abstract: A number of influential papers study monopsony power in static models. Among the papers that model dynamics with a finite number of firms, none model the process of human capital accumulation by workers. In this paper, I show that this has important implications for the measurement and welfare consequences of monopsony power. How large are properly measured markdowns? And what are the welfare gains of implementing competitive allocations once we have accounted for human capital accumulation? To answer these questions, I introduce a novel model of dynamic monopsony in which a large non-atomistic firm competes with a finite number of homogeneous firms for workers who learn on-the-job. The markdown has an additional dynamic term reflecting expected future changes in worker human capital. I estimate the model using rich matched employee-employer administrative data from France and find that the welfare gains from forcing firms to offer workers their marginal product are large. Moreover, the welfare losses are underestimated by 81% when ignoring human capital accumulation. 
-# - title: Production Function Estimation with Missing Data (draft coming soon)
-#   coauthors:
-#       - name: Kyle Herkenhoff
-#         link: https://sites.google.com/site/kyleherkenhoff/home?authuser=0
-#   # link: /assets/papers/JMP_Jungerman.pdf
-#   abstract: This paper develops a method to estimate production functions when some inputs are unobserved. Due to data limitations in the U.S., there are no firm-level total factor productivity estimates for privately owned firms outside of the Manufacturing sector. We circumvent this issue by relying on the richness of matched employer-employee data instead. We extend the standard methodology by splitting the labor input into a predetermined stock of high skill workers and a flexible choice of low skill workers. This additional structure allows us to not only identify the model parameters, but also recover the unobserved productivity and capital stock of the firm. We provide a series of Monte Carlo experiments to validate our estimation algorithm, and we show that it is robust to alternate parameterizations of the production function and relaxations of our baseline assumptions.
 - title: Average Match Quality over the Business Cycle
   link: /assets/papers/Jungerman_AMQ.pdf
   status: "Resting."
