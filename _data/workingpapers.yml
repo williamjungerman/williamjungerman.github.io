@@ -10,19 +10,19 @@
       note={Working Paper}
     }
   abstract: How does dynamic labor supply change the measurement and welfare costs of monopsony? I develop a dynamic model in which a large employer competes with smaller firms for workers who accumulate human capital. The large firm internalizes how its wages shape human capital and employment across the market. Hence, the labor supply elasticity is no longer a sufficient statistic for how far wages fall below their efficient level. I characterize the efficient allocation and show that wages equal to static marginal products implement it. To quantify the losses, I solve the model with deep learning and estimate it on French matched employer–employee data. Across two representative markets, monopsony lowers welfare by 2.6% on average. Inferring productivity from a static wage equation overstates the dominant employer’s productivity and makes wages appear further below their efficient level, yet understates the welfare cost of monopsony by 22% on average.
-- title: There’s Nothing in the Air
+- title: Accounting for the Urban Wage Growth Premium
   coauthors:
     - name: Jacob Adenbaum
       link: https://jacobadenbaum.github.io/
     - name: Fil Babalievsky
       link: http://fil-babalievsky.squarespace.com/
   link: /assets/papers/urban_data.pdf
-  status: "New draft! First draft: October 2025."
+  status: "New draft! First draft: October 2025. Previously circulated as “There’s Nothing in the Air.”"
   bibtex: |
     @unpublished{
-      There_s_Nothing_in_the_Air,
+      Urban_Wage_Growth_Premium,
       author={Jacob Adenbaum and Fil Babalievsky and William Jungerman},
-      title={There’s Nothing in the Air},
+      title={Accounting for the Urban Wage Growth Premium},
       year={2026},
       note={Working Paper}
     }
